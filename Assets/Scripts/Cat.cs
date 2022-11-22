@@ -5,8 +5,8 @@ using UnityEngine;
 // INHERITANCE
 public class Cat : Animal
 {
-
     public override void Start() {
+        nameAnimal = "Smoky";
         base.Start();
         Jump(5);
     }
