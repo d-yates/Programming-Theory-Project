@@ -5,6 +5,9 @@ using UnityEngine;
 // INHERITANCE
 public class Dog : Animal
 {
-    // Start is called before the first frame update
-    
+    public override void Start() {
+        base.Start();
+        Jump();
+    }
+
 }
