@@ -47,11 +47,13 @@ public class Animal : MonoBehaviour
         Debug.Log("The " + typeAnimal + " it's jumping at a force of : " + jumpForce);
     }
 
+    // Abstraction 
     public void Move()
     {
         Debug.Log("The " + typeAnimal + " is move forward");
     }
 
+    // Abstraction 
     public void Eat()
     {
         Debug.Log("The " + typeAnimal + " eats");

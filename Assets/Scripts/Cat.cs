@@ -9,6 +9,8 @@ public class Cat : Animal
         nameAnimal = "Smoky";
         base.Start();
         Jump(5);
+        Move();
+        Eat();
     }
 
     // POLYMORPHISM

@@ -10,6 +10,8 @@ public class Dog : Animal
         nameAnimal = "pluto";
         base.Start();
         Jump(Vector3.up * forceJump);
+        Move();
+        Eat();
     }
 
 }
