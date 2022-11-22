@@ -12,8 +12,13 @@ public class Animal : MonoBehaviour
         Debug.Log("A new animal is created : " + typeAnimal);
     }
 
-    public virtual void Jump(){
-        Debug.Log("The " + typeAnimal + " is jump");
+     // POLYMORPHISM
+    public virtual void Jump(float maxHeight){
+        Debug.Log("The " + typeAnimal + " it's jumping at a height of : " + maxHeight);
+    }
+
+    public virtual void Jump(Vector3 jumpForce){
+        Debug.Log("The " + typeAnimal + " it's jumping at a force of : " + jumpForce);
     }
 
     public void Move(){
